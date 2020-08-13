@@ -1,0 +1,44 @@
+.pofessor_box {
+    padding: 30px;
+    width: 100%;
+    /* height: 290px; */
+    background: #FFFFFF;
+    box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.05);
+    margin-top: 30px;
+}
+.pofessor_top {
+    display: flex;
+    justify-content: start;
+}
+.pofessor_image {
+    height: auto;
+    width: 175px;
+    margin-right: 50px;
+}
+.pofessor_fio {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 160%;
+    color: #062A77;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 40px;
+    margin-bottom: 5px;
+}
+.pofessor_description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* height: 105px; */
+}
+.pofessor_description_non_height {
+    height: auto;
+}
+.bold_text {
+    font-weight: bold;
+}

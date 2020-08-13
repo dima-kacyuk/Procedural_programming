@@ -1,0 +1,25 @@
+.professor_box {
+	display: flex;
+	justify-content: start;
+	margin-bottom: 20px;
+}
+.professor_box_image{
+	margin-right: 20px;
+	text-align: center;
+	width: 100px;
+}
+.professor_box_desc {
+	width: 550px;
+	height: 120px;
+	white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+	padding-right: 20px;
+	margin-right: 20px;
+}
+.professor_box_consultation {
+	border-left: 5px dashed #bfdeff;
+	border-right: 5px dashed #bfdeff;
+	margin: 0 30px;
+	padding: 0 30px;
+}

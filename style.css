@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.my_container {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 5%;
+}
+header {
+	background-color: #bfdeff;
+}
+.menu_container{
+	width: 100%;
+	padding: 0 25%;
+}
+header .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	margin: 0;
+	padding: 18px 0;
+}
+header .menu .link {
+	display: inline-block;
+	margin-left: 30px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.link:hover {
+	color: white;
+}
+header .logo { 
+    width: 60px;
+}
+.brd {
+    border: 4px double black; /* Параметры границы */
+	padding: 10px; /* Поля вокруг текста */
+	margin: 5px 20px;
+}
+.news_block {
+	white-space: nowrap;
+    overflow: hidden;
+	width: auto;
+	margin: 20px 0;
+	padding: 20px auto;
+}
+.news_top{
+	display: flex;
+	justify-content: start;
+}
+.news_image{
+	text-align: center;
+	width: 120px;
+	height: auto;
+	margin-right: 20px;
+}
+.news_title_and_desc{
+	width: 550px;
+	height: 100px;
+	white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+	padding-right: 20px;
+}
+.news_link_and_file{
+	border-right: 5px dashed #bfdeff;
+	border-left: 5px dashed #bfdeff;
+	width: 220px;
+	height: 100px;
+	margin-left: 20px;
+	padding: 0 20px;
+}
+.p_news{
+    margin-bottom: 3px;
+}
+.checkbox {
+	position:relative;
+	padding-left:25px;
+}
+.checkbox input[type=checkbox] {
+	display:none;
+}
+.checkbox label:after {
+	content:'';
+	display:block;
+	height:14px;
+	width:14px;
+	outline:1px solid #939598;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.checkbox input[type=checkbox]:checked + label:after {
+	outline:1px solid #939598;
+	border:2px solid #fff;
+	width:10px;
+	height:10px;
+	background-color:#63849F;
+}
+.news_bottom{
+	display: flex;
+	justify-content: start;
+}
+.news_date{
+	margin-right: 50px;
+}
+.news_buttons{
+	display: flex;
+	justify-content: start;
+}
+.jc_space_between {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+	width: 800px;
+}
+.foto {
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
+}
+.enter {
+	width: 500px;
+	height: 100px;
+	margin-right: 20px;
+	border-right: 5px dashed #bfdeff;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	padding-right: 30px;
+}
+.enter2 {
+	width: 200px;
+	height: 100px;
+	border-right: 5px dashed #bfdeff;
+}
+.aut_and_date {
+	height: 20px;
+    margin-right: 20px;
+}
+.indent {
+	margin-left: 20px;
+}
+.margin_right {
+	margin-right: 20px;
+}
+.t17 {
+	font-size: 26px;
+}
+.professors_box {
+	width: 800px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.professors_description {
+	width: 400px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.centerdiv{
+	text-align: center;
+}
+.search_news {
+	width: 500px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.b {
+	width: 800px;
+}
+.col .form-control {
+	width: auto;
+}
+.ops{
+	width: 500px;
+	height: 500px;
+	float: left;
+}
